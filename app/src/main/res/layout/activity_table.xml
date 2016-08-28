@@ -92,7 +92,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/FirstMon"/>
 
             <TextView
@@ -100,7 +100,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/FirstThu"/>
 
             <TextView
@@ -108,7 +108,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/FirstWed"/>
 
             <TextView
@@ -116,7 +116,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/FirstThur"/>
 
             <TextView
@@ -124,7 +124,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/FirstFri"/>
         </TableRow>
 
@@ -143,7 +143,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/SecondMon"/>
 
             <TextView
@@ -151,7 +151,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/SecondThu"/>
 
             <TextView
@@ -159,7 +159,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/SecondWed"/>
 
             <TextView
@@ -167,7 +167,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/SecondThur"/>
 
             <TextView
@@ -175,7 +175,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/SecondFri"/>
         </TableRow>
 
@@ -194,7 +194,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/ThirddMon"/>
 
             <TextView
@@ -202,7 +202,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/ThirdThu"/>
 
             <TextView
@@ -210,7 +210,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/ThirdWed"/>
 
             <TextView
@@ -218,7 +218,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/ThirdThur"/>
 
             <TextView
@@ -226,7 +226,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/ThirdFri"/>
         </TableRow>
 
@@ -245,7 +245,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/ForthMon"/>
 
             <TextView
@@ -253,7 +253,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/ForthThu"/>
 
             <TextView
@@ -261,7 +261,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/ForthWed"/>
 
             <TextView
@@ -269,7 +269,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/ForthThur"/>
 
             <TextView
@@ -277,7 +277,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/ForthFri"/>
         </TableRow>
 
@@ -297,7 +297,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/FifthMon"/>
 
             <TextView
@@ -305,7 +305,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/FifthThu"/>
 
             <TextView
@@ -313,7 +313,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/FifthWed"/>
 
             <TextView
@@ -321,7 +321,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/FifthThur"/>
 
             <TextView
@@ -329,7 +329,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/FifthFri"/>
         </TableRow>
 
@@ -348,7 +348,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/SixthMon"/>
 
             <TextView
@@ -356,7 +356,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/SixthThu"/>
 
             <TextView
@@ -364,7 +364,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/SixthWed"/>
 
             <TextView
@@ -372,7 +372,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/SixthThur"/>
 
             <TextView
@@ -380,7 +380,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/SixthFri"/>
         </TableRow>
 
@@ -399,7 +399,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/SeventhMon"/>
 
             <TextView
@@ -407,7 +407,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/SeventhThu"/>
 
             <TextView
@@ -415,7 +415,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/SeventhWed"/>
 
             <TextView
@@ -423,7 +423,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/SeventhThur"/>
 
             <TextView
@@ -431,7 +431,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/SeventhFri"/>
         </TableRow>
 
@@ -450,7 +450,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/EighthMon"/>
 
             <TextView
@@ -458,7 +458,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/EighthThu"/>
 
             <TextView
@@ -466,7 +466,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/EighthWed"/>
 
             <TextView
@@ -474,7 +474,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/EighthThur"/>
 
             <TextView
@@ -482,7 +482,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/EighthFri"/>
         </TableRow>
 
@@ -501,7 +501,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/NinthMon"/>
 
             <TextView
@@ -509,7 +509,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/NinthThu"/>
 
             <TextView
@@ -517,7 +517,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/NinthWed"/>
 
             <TextView
@@ -525,7 +525,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/NinthThur"/>
 
             <TextView
@@ -533,7 +533,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_shape"
-                android:padding="5dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="3dp" android:paddingRight="3dp"
                 android:id="@+id/NinthFri"/>
         </TableRow>
     </TableLayout>
