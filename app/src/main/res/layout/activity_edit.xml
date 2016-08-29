@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.schedulemanager.EditActivity">
+
+    <Button
+        android:text="Commit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="51dp"
+        android:id="@+id/commitButton" />
+
+    <Button
+        android:text="Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:id="@+id/addButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id = "@+id/listScrollView">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/listView"/>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/listScrollView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="56dp"
+        android:id = "@+id/editView">
+
+        <TextView
+            android:text="강의명"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView2"
+            android:layout_alignEnd="@+id/textView" />
+
+
+        <TextView
+            android:text="시작 시간"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:text="마침 시간"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/editText"
+            android:layout_marginStart="34dp" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner7"
+            android:layout_below="@+id/textView5"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="18dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:text="강의요일"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_below="@+id/editText"
+            android:layout_alignEnd="@+id/textView5"
+            android:layout_marginTop="18dp" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner8"
+            android:layout_alignTop="@+id/spinner7"
+            android:layout_alignStart="@+id/textView6" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView">
+
+            <CheckedTextView
+                android:text="월"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView"/>
+
+            <CheckedTextView
+                android:text="목"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="56dp"
+                android:id="@+id/checkedTextView4"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/checkedTextView2" />
+
+            <CheckedTextView
+                android:text="금"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView5"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/checkedTextView4"
+                android:layout_marginStart="21dp" />
+
+            <CheckedTextView
+                android:text="수"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView3"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/checkedTextView5"
+                android:layout_marginEnd="27dp" />
+
+            <CheckedTextView
+                android:text="화"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView2"
+                android:layout_marginStart="39dp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/checkedTextView" />
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
